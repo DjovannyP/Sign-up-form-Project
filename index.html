@@ -10,56 +10,59 @@
     <div class="container">
         <div class="left__part">
             <div class="image">
-
+                <img src="/img/Lunar Tide Pris AI.png" alt="">
             </div>
             <div class="div__logo">
 
             </div>
         </div>
         <div class="right__part">
-            <div class="title">
-                <p>This is not a real online service! You know you need something like this in your life to helpe you realize your deepet dream. Sign up now to get started.</p>
-                <p>You know you want to.</p>
+            <div class="title_background">
+                <div class="title">
+                    <p>This is not a real online service! Sign up now to get started.</p>
+                    <p>You know you want to.</p>
+                </div>
             </div>
             <!-- a gerer-->
-            <h3>Let's do this!</h3>
-            <form action="#">
+                        
+            <form>
                 <div class="info">          
                     <div class="left__column">
+                        <h3>Let's do this!</h3>
                         <div>
-                            <label for="name">FIRST NAME</label>
-                            <input type="text" placeholder="Thor">
+                            <label for="first__name">FIRST NAME</label>
+                            <input type="text" id="first__name" name="first__name" placeholder="Thor">
                         </div>
                         <div>
-                            <label for="name">EMAIL</label>
-                            <input type="email" placeholder="example@gmail.com">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="name" name="email" placeholder="example@gmail.com">
                         </div>
                         <div>
-                            <label for="name">PASSWORD</label>
-                            <input type="password" placeholder="*********">
-                            <p>* password do not match</p>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" placeholder="*********">
+                            <p class="error">* password do not match</p>
                         </div>
                     </div>
                     <div class="right__column">
                         <div>
-                            <label for="name">LAST NAME</label>
-                            <input type="text" placeholder="Odinson">
+                            <label for="last__name">LAST NAME</label>
+                            <input type="text" id="last__name" name="last_name" placeholder="Odinson">
                         </div>
                         <div>
-                            <label for="name">PHONE NUMBER</label>
-                            <input type="tel">
+                            <label for="telephonee">PHONE NUMBER</label>
+                            <input type="tel"  id="telephone" name="telephone" placeholder="4900-03-86"/>
                         </div>
                         <div>
-                            <label for="name"> CONFIRM PASSWORD</label>
-                            <input type="password" placeholder="*********">
+                            <label for="confirmation"> CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmation" name="confirmation" placeholder="*********">
                         </div>
                     </div>               
                 </div>
-                <div class="submission">
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account? <a href="#">Log in</a></p>
-                </div>
             </form>
+            <div class="submission">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>
