@@ -73,7 +73,7 @@ height: 100vh;
     flex-direction: column;
 }  
 .left__column p:first-child {
-    margin-top: -30px;
+    margin-top: -28px;
     font-weight: bold;
     font-size: 22px;
 }                                                                                
